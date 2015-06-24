@@ -1,34 +1,40 @@
-// --------------------------------------------------------------------------------------------------------------------
-// <summary>
-//    Defines the MainView type.
-// </summary>
-// --------------------------------------------------------------------------------------------------------------------
+using Cirrious.MvvmCross.Touch.Views;
+using Cirrious.MvvmCross.Binding.BindingContext;
+using Cirrious.MvvmCross.Binding.Touch.Views;
+
 namespace TekConf.iOS.Views
 {
     using TekConf.Core.ViewModels;
     using Foundation;
     using UIKit;
 
-    /// <summary>
-    /// Defines the MainView type.
-    /// </summary>
     [Register("MainView")]
-    public class MainView : BaseView
+    public class MainView : MvxTableViewController
     {
-        /// <summary>
-        /// Views the did load.
-        /// </summary>
-        /// <summary>
-        /// Called when the View is first loaded
-        /// </summary>
-        public override void ViewDidLoad()
-        {
-            this.View = new UIView { BackgroundColor = UIColor.White };
+		public override void ViewDidLoad ()
+		{
+			base.ViewDidLoad ();
 
-            base.ViewDidLoad();
+			var source = new TableSource(TableView);
 
-            UITapGestureRecognizer tap = new UITapGestureRecognizer(() => this.View.ResignFirstResponder());
-            this.View.AddGestureRecognizer(tap);
-        }
+			var bindings = this.CreateBindingSet<MainView, MainViewModel>();
+			bindings.Bind(source).To(vm => vm.Conferences);
+			bindings.Apply ();
+
+			TableView.Source = source;
+			TableView.ReloadData();
+		}
+
+		public class TableSource : MvxStandardTableViewSource
+		{
+			private static readonly NSString Identifier = new NSString("MenuCellIdentifier");
+			private const string BindingText = "TitleText Name";
+
+			#warning Switch to new base constructor when released...
+			public TableSource(UITableView tableView)
+				: base(tableView, UITableViewCellStyle.Default, Identifier, BindingText)
+			{
+			}
+		}
     }
 }

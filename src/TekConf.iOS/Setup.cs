@@ -14,10 +14,10 @@ namespace TekConf.iOS
 		{
 		}
 
-        protected override IMvxTouchViewsContainer CreateTouchViewsContainer()
-        {
-            return new MyContainer();
-        } 
+//        protected override IMvxTouchViewsContainer CreateTouchViewsContainer()
+//        {
+//            return new MyContainer();
+//        } 
 
 	    protected override IMvxApplication CreateApp()
 		{

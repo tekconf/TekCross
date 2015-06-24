@@ -3,6 +3,7 @@
 //    Defines the SecondView type.
 // </summary>
 // --------------------------------------------------------------------------------------------------------------------
+using CoreGraphics;
 
 namespace TekConf.iOS.Views
 {
@@ -32,9 +33,9 @@ namespace TekConf.iOS.Views
 
             base.ViewDidLoad();
 
-            UILabel uiLabel = new UILabel(new RectangleF(10, 10, 300, 40));
+            UILabel uiLabel = new UILabel(new CGRect(10, 10, 300, 40));
             View.AddSubview(uiLabel);
-            UITextField uiTextField = new UITextField(new RectangleF(10, 50, 300, 40));
+            UITextField uiTextField = new UITextField(new CGRect(10, 50, 300, 40));
             View.AddSubview(uiTextField);
 
             var set = this.CreateBindingSet<SecondView, SecondViewModel>();

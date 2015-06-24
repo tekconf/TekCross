@@ -7,24 +7,35 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using TekConf.Core.ViewModels;
+using Fusillade;
+using System.Threading.Tasks;
+using System.Linq;
 
 namespace TekConf.Core.ViewModels
 {
-    public class Conference
-    {
-        public string Slug { get; set; }
-        public string Name { get; set; }
+	public class MainViewModel : BaseViewModel
+	{
+		readonly IRemoteDataService _remoteDataService;
 
-    }
-    /// <summary>
-    /// Define the MainViewModel type.
-    /// </summary>
-    public class MainViewModel : BaseViewModel
-    {
-        public MainViewModel()
-        {
-            this.Conferences = new ObservableCollection<Conference>(new List<Conference>() { new Conference(){ Name ="C1", Slug = "S1"}});
-        }
-        public ObservableCollection<Conference> Conferences { get; set; }
-    }
+		public MainViewModel (IRemoteDataService remoteDataService)
+		{
+			_remoteDataService = remoteDataService;
+
+			this.Conferences = new ObservableCollection<ConferenceDto> (
+				new List<ConferenceDto> () { 
+					new ConferenceDto () {
+						Name = "C1",
+						Slug = "S1"
+				} });
+
+			Load ();
+		}
+
+		private async Task Load() 
+		{
+			var conferences  = await _remoteDataService.GetConferencesAsync (Priority.UserInitiated, force: false);
+			this.Conferences = new ObservableCollection<ConferenceDto>(conferences.ToList());
+		}
+		public ObservableCollection<ConferenceDto> Conferences { get; set; }
+	}
 }
