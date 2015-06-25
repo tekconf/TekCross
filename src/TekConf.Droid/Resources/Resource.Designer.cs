@@ -28,8 +28,8 @@ namespace TekConf.Droid
 		{
 			global::Cirrious.MvvmCross.Plugins.Network.Droid.Resource.String.ApplicationName = global::TekConf.Droid.Resource.String.ApplicationName;
 			global::Cirrious.MvvmCross.Plugins.Network.Droid.Resource.String.Hello = global::TekConf.Droid.Resource.String.Hello;
-			global::Splat.Resource.String.library_name = global::TekConf.Droid.Resource.String.library_name;
 			global::ModernHttpClient.Resource.String.library_name = global::TekConf.Droid.Resource.String.library_name;
+			global::Splat.Resource.String.library_name = global::TekConf.Droid.Resource.String.library_name;
 		}
 		
 		public partial class Attribute

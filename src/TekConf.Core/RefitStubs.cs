@@ -3,8 +3,6 @@ using System.Net.Http;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Cirrious.MvvmCross.Plugins.File;
-using Cirrious.MvvmCross.Plugins.Messenger;
 using Refit;
 
 /* ******** Hey You! *********

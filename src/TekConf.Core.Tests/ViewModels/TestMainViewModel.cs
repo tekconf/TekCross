@@ -27,7 +27,7 @@ namespace TekConf.Core.Tests.ViewModels
         /// </summary>
         public override void CreateTestableObject()
         {
-            this.mainViewModel = new MainViewModel();
+            //this.mainViewModel = new MainViewModel();
         }
     }
 }
