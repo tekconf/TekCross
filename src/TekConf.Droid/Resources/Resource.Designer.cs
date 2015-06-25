@@ -30,31 +30,97 @@ namespace TekConf.Droid
 			global::Cirrious.MvvmCross.Plugins.Network.Droid.Resource.String.Hello = global::TekConf.Droid.Resource.String.Hello;
 			global::ModernHttpClient.Resource.String.library_name = global::TekConf.Droid.Resource.String.library_name;
 			global::Splat.Resource.String.library_name = global::TekConf.Droid.Resource.String.library_name;
+			global::Cirrious.MvvmCross.Binding.Droid.Resource.Attribute.GroupItemTemplate = global::TekConf.Droid.Resource.Attribute.GroupItemTemplate;
+			global::Cirrious.MvvmCross.Binding.Droid.Resource.Attribute.MvxBind = global::TekConf.Droid.Resource.Attribute.MvxBind;
+			global::Cirrious.MvvmCross.Binding.Droid.Resource.Attribute.MvxDropDownItemTemplate = global::TekConf.Droid.Resource.Attribute.MvxDropDownItemTemplate;
+			global::Cirrious.MvvmCross.Binding.Droid.Resource.Attribute.MvxItemTemplate = global::TekConf.Droid.Resource.Attribute.MvxItemTemplate;
+			global::Cirrious.MvvmCross.Binding.Droid.Resource.Attribute.MvxLang = global::TekConf.Droid.Resource.Attribute.MvxLang;
+			global::Cirrious.MvvmCross.Binding.Droid.Resource.Attribute.MvxSource = global::TekConf.Droid.Resource.Attribute.MvxSource;
+			global::Cirrious.MvvmCross.Binding.Droid.Resource.Attribute.MvxTemplate = global::TekConf.Droid.Resource.Attribute.MvxTemplate;
+			global::Cirrious.MvvmCross.Binding.Droid.Resource.Id.MvvmCrossTagId = global::TekConf.Droid.Resource.Id.MvvmCrossTagId;
+			global::Cirrious.MvvmCross.Binding.Droid.Resource.Id.MvxBindingTagUnique = global::TekConf.Droid.Resource.Id.MvxBindingTagUnique;
+			global::Cirrious.MvvmCross.Binding.Droid.Resource.Styleable.MvxBinding = global::TekConf.Droid.Resource.Styleable.MvxBinding;
+			global::Cirrious.MvvmCross.Binding.Droid.Resource.Styleable.MvxBinding_MvxBind = global::TekConf.Droid.Resource.Styleable.MvxBinding_MvxBind;
+			global::Cirrious.MvvmCross.Binding.Droid.Resource.Styleable.MvxBinding_MvxLang = global::TekConf.Droid.Resource.Styleable.MvxBinding_MvxLang;
+			global::Cirrious.MvvmCross.Binding.Droid.Resource.Styleable.MvxControl = global::TekConf.Droid.Resource.Styleable.MvxControl;
+			global::Cirrious.MvvmCross.Binding.Droid.Resource.Styleable.MvxControl_MvxTemplate = global::TekConf.Droid.Resource.Styleable.MvxControl_MvxTemplate;
+			global::Cirrious.MvvmCross.Binding.Droid.Resource.Styleable.MvxExpandableListView = global::TekConf.Droid.Resource.Styleable.MvxExpandableListView;
+			global::Cirrious.MvvmCross.Binding.Droid.Resource.Styleable.MvxExpandableListView_GroupItemTemplate = global::TekConf.Droid.Resource.Styleable.MvxExpandableListView_GroupItemTemplate;
+			global::Cirrious.MvvmCross.Binding.Droid.Resource.Styleable.MvxImageView = global::TekConf.Droid.Resource.Styleable.MvxImageView;
+			global::Cirrious.MvvmCross.Binding.Droid.Resource.Styleable.MvxImageView_MvxSource = global::TekConf.Droid.Resource.Styleable.MvxImageView_MvxSource;
+			global::Cirrious.MvvmCross.Binding.Droid.Resource.Styleable.MvxListView = global::TekConf.Droid.Resource.Styleable.MvxListView;
+			global::Cirrious.MvvmCross.Binding.Droid.Resource.Styleable.MvxListView_MvxDropDownItemTemplate = global::TekConf.Droid.Resource.Styleable.MvxListView_MvxDropDownItemTemplate;
+			global::Cirrious.MvvmCross.Binding.Droid.Resource.Styleable.MvxListView_MvxItemTemplate = global::TekConf.Droid.Resource.Styleable.MvxListView_MvxItemTemplate;
 		}
 		
 		public partial class Attribute
 		{
 			
-			// aapt resource value: 0x7f010005
-			public const int GroupItemTemplate = 2130771973;
+			// aapt resource value: 0x7f010014
+			public const int GroupItemTemplate = 2130771988;
 			
-			// aapt resource value: 0x7f010000
-			public const int MvxBind = 2130771968;
+			// aapt resource value: 0x7f01000f
+			public const int MvxBind = 2130771983;
+			
+			// aapt resource value: 0x7f010013
+			public const int MvxDropDownItemTemplate = 2130771987;
+			
+			// aapt resource value: 0x7f010012
+			public const int MvxItemTemplate = 2130771986;
+			
+			// aapt resource value: 0x7f010010
+			public const int MvxLang = 2130771984;
+			
+			// aapt resource value: 0x7f010015
+			public const int MvxSource = 2130771989;
+			
+			// aapt resource value: 0x7f010011
+			public const int MvxTemplate = 2130771985;
 			
 			// aapt resource value: 0x7f010004
-			public const int MvxDropDownItemTemplate = 2130771972;
+			public const int cardBackgroundColor = 2130771972;
 			
-			// aapt resource value: 0x7f010003
-			public const int MvxItemTemplate = 2130771971;
-			
-			// aapt resource value: 0x7f010001
-			public const int MvxLang = 2130771969;
+			// aapt resource value: 0x7f010005
+			public const int cardCornerRadius = 2130771973;
 			
 			// aapt resource value: 0x7f010006
-			public const int MvxSource = 2130771974;
+			public const int cardElevation = 2130771974;
+			
+			// aapt resource value: 0x7f010007
+			public const int cardMaxElevation = 2130771975;
+			
+			// aapt resource value: 0x7f010009
+			public const int cardPreventCornerOverlap = 2130771977;
+			
+			// aapt resource value: 0x7f010008
+			public const int cardUseCompatPadding = 2130771976;
+			
+			// aapt resource value: 0x7f01000a
+			public const int contentPadding = 2130771978;
+			
+			// aapt resource value: 0x7f01000e
+			public const int contentPaddingBottom = 2130771982;
+			
+			// aapt resource value: 0x7f01000b
+			public const int contentPaddingLeft = 2130771979;
+			
+			// aapt resource value: 0x7f01000c
+			public const int contentPaddingRight = 2130771980;
+			
+			// aapt resource value: 0x7f01000d
+			public const int contentPaddingTop = 2130771981;
+			
+			// aapt resource value: 0x7f010000
+			public const int layoutManager = 2130771968;
 			
 			// aapt resource value: 0x7f010002
-			public const int MvxTemplate = 2130771970;
+			public const int reverseLayout = 2130771970;
+			
+			// aapt resource value: 0x7f010001
+			public const int spanCount = 2130771969;
+			
+			// aapt resource value: 0x7f010003
+			public const int stackFromEnd = 2130771971;
 			
 			static Attribute()
 			{
@@ -62,6 +128,56 @@ namespace TekConf.Droid
 			}
 			
 			private Attribute()
+			{
+			}
+		}
+		
+		public partial class Color
+		{
+			
+			// aapt resource value: 0x7f060000
+			public const int cardview_dark_background = 2131099648;
+			
+			// aapt resource value: 0x7f060001
+			public const int cardview_light_background = 2131099649;
+			
+			// aapt resource value: 0x7f060002
+			public const int cardview_shadow_end_color = 2131099650;
+			
+			// aapt resource value: 0x7f060003
+			public const int cardview_shadow_start_color = 2131099651;
+			
+			static Color()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Color()
+			{
+			}
+		}
+		
+		public partial class Dimension
+		{
+			
+			// aapt resource value: 0x7f040001
+			public const int cardview_compat_inset_shadow = 2130968577;
+			
+			// aapt resource value: 0x7f040002
+			public const int cardview_default_elevation = 2130968578;
+			
+			// aapt resource value: 0x7f040003
+			public const int cardview_default_radius = 2130968579;
+			
+			// aapt resource value: 0x7f040000
+			public const int item_touch_helper_max_drag_scroll_per_frame = 2130968576;
+			
+			static Dimension()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Dimension()
 			{
 			}
 		}
@@ -88,8 +204,23 @@ namespace TekConf.Droid
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f050001
+			public const int MvvmCrossTagId = 2131034113;
+			
+			// aapt resource value: 0x7f050002
+			public const int MvxBindingTagUnique = 2131034114;
+			
+			// aapt resource value: 0x7f050003
+			public const int basecard_title = 2131034115;
+			
 			// aapt resource value: 0x7f050000
-			public const int MvxBindingTagUnique = 2131034112;
+			public const int item_touch_helper_previous_elevation = 2131034112;
+			
+			// aapt resource value: 0x7f050005
+			public const int my_recycler_view = 2131034117;
+			
+			// aapt resource value: 0x7f050004
+			public const int tv_basecard_header_title = 2131034116;
 			
 			static Id()
 			{
@@ -105,19 +236,25 @@ namespace TekConf.Droid
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int ConferencesListItem = 2130903040;
+			public const int base_card = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int FirstView = 2130903041;
+			public const int ConferencesListItem = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int MainView = 2130903042;
+			public const int FirstView = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int SecondView = 2130903043;
+			public const int MainView = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int SplashScreen = 2130903044;
+			public const int SecondView = 2130903044;
+			
+			// aapt resource value: 0x7f030005
+			public const int SimpleRecyclerViewItem = 2130903045;
+			
+			// aapt resource value: 0x7f030006
+			public const int SplashScreen = 2130903046;
 			
 			static Layout()
 			{
@@ -132,14 +269,14 @@ namespace TekConf.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040002
-			public const int ApplicationName = 2130968578;
+			// aapt resource value: 0x7f080002
+			public const int ApplicationName = 2131230722;
 			
-			// aapt resource value: 0x7f040001
-			public const int Hello = 2130968577;
+			// aapt resource value: 0x7f080001
+			public const int Hello = 2131230721;
 			
-			// aapt resource value: 0x7f040000
-			public const int library_name = 2130968576;
+			// aapt resource value: 0x7f080000
+			public const int library_name = 2131230720;
 			
 			static String()
 			{
@@ -154,8 +291,17 @@ namespace TekConf.Droid
 		public partial class Style
 		{
 			
-			// aapt resource value: 0x7f060000
-			public const int Theme_Splash = 2131099648;
+			// aapt resource value: 0x7f070000
+			public const int CardView = 2131165184;
+			
+			// aapt resource value: 0x7f070001
+			public const int CardView_Dark = 2131165185;
+			
+			// aapt resource value: 0x7f070002
+			public const int CardView_Light = 2131165186;
+			
+			// aapt resource value: 0x7f070003
+			public const int Theme_Splash = 2131165187;
 			
 			static Style()
 			{
@@ -170,10 +316,57 @@ namespace TekConf.Droid
 		public partial class Styleable
 		{
 			
+			public static int[] CardView = new int[]
+			{
+					2130771972,
+					2130771973,
+					2130771974,
+					2130771975,
+					2130771976,
+					2130771977,
+					2130771978,
+					2130771979,
+					2130771980,
+					2130771981,
+					2130771982};
+			
+			// aapt resource value: 0
+			public const int CardView_cardBackgroundColor = 0;
+			
+			// aapt resource value: 1
+			public const int CardView_cardCornerRadius = 1;
+			
+			// aapt resource value: 2
+			public const int CardView_cardElevation = 2;
+			
+			// aapt resource value: 3
+			public const int CardView_cardMaxElevation = 3;
+			
+			// aapt resource value: 5
+			public const int CardView_cardPreventCornerOverlap = 5;
+			
+			// aapt resource value: 4
+			public const int CardView_cardUseCompatPadding = 4;
+			
+			// aapt resource value: 6
+			public const int CardView_contentPadding = 6;
+			
+			// aapt resource value: 10
+			public const int CardView_contentPaddingBottom = 10;
+			
+			// aapt resource value: 7
+			public const int CardView_contentPaddingLeft = 7;
+			
+			// aapt resource value: 8
+			public const int CardView_contentPaddingRight = 8;
+			
+			// aapt resource value: 9
+			public const int CardView_contentPaddingTop = 9;
+			
 			public static int[] MvxBinding = new int[]
 			{
-					2130771968,
-					2130771969};
+					2130771983,
+					2130771984};
 			
 			// aapt resource value: 0
 			public const int MvxBinding_MvxBind = 0;
@@ -183,35 +376,58 @@ namespace TekConf.Droid
 			
 			public static int[] MvxControl = new int[]
 			{
-					2130771970};
+					2130771985};
 			
 			// aapt resource value: 0
 			public const int MvxControl_MvxTemplate = 0;
 			
 			public static int[] MvxExpandableListView = new int[]
 			{
-					2130771973};
+					2130771988};
 			
 			// aapt resource value: 0
 			public const int MvxExpandableListView_GroupItemTemplate = 0;
 			
 			public static int[] MvxImageView = new int[]
 			{
-					2130771974};
+					2130771989};
 			
 			// aapt resource value: 0
 			public const int MvxImageView_MvxSource = 0;
 			
 			public static int[] MvxListView = new int[]
 			{
-					2130771971,
-					2130771972};
+					2130771986,
+					2130771987};
 			
 			// aapt resource value: 1
 			public const int MvxListView_MvxDropDownItemTemplate = 1;
 			
 			// aapt resource value: 0
 			public const int MvxListView_MvxItemTemplate = 0;
+			
+			public static int[] RecyclerView = new int[]
+			{
+					16842948,
+					2130771968,
+					2130771969,
+					2130771970,
+					2130771971};
+			
+			// aapt resource value: 0
+			public const int RecyclerView_android_orientation = 0;
+			
+			// aapt resource value: 1
+			public const int RecyclerView_layoutManager = 1;
+			
+			// aapt resource value: 3
+			public const int RecyclerView_reverseLayout = 3;
+			
+			// aapt resource value: 2
+			public const int RecyclerView_spanCount = 2;
+			
+			// aapt resource value: 4
+			public const int RecyclerView_stackFromEnd = 4;
 			
 			static Styleable()
 			{

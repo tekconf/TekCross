@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white">
+    <RelativeLayout
+        android:id="@+id/basecard_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <!-- Title Text style="@style/card.title" -->
+        <TextView
+            android:id="@+id/tv_basecard_header_title"
+            android:text="title text"
+            local:MvxBind="Text Name" />
+    <!-- ImageView -->
+    <!--		<MvxImageView 
+			android:id="@+id/ib_basecard_header_button_expand" 
+			style="@style/card.image" 
+			local:MvxBind="Bitmap ImageBytes,Converter=InMemoryImage" />-->
+    </RelativeLayout>
+</FrameLayout>

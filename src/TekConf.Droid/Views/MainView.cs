@@ -1,3 +1,6 @@
+using Android.Support.V7.Widget;
+using Cirrious.MvvmCross.Droid.Support.RecyclerView;
+
 namespace TekConf.Droid.Views
 {
     using Android.App;
@@ -10,6 +13,12 @@ namespace TekConf.Droid.Views
         {
             base.OnCreate(bundle);
             this.SetContentView(Resource.Layout.MainView);
+
+			var recyclerView = FindViewById<MvxRecyclerView>(Resource.Id.my_recycler_view);
+			recyclerView.HasFixedSize = true;
+
+			var layoutManager = new LinearLayoutManager(this);
+			recyclerView.SetLayoutManager(layoutManager);
         }
     }
 }
